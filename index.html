@@ -16,42 +16,72 @@
 <body>
     <div class="container-fluid">
             <header>
-                <nav class="d-flex justify-content-around align-items-center p-4">
-                    <div class="logo">
-                        <img src="assets/images/logo.png" alt="Pizzaria">
-                    </div><!--Logo-->
-                    <div class="menu">
-                        <ul class="list-inline">
-                            <li class="list-inline-item">Home</li>
-                            <li class="list-inline-item">Cardápio</li>
-                            <li class="list-inline-item">Contato</li>
-                        </ul>
-                    </div>
-                </nav>
-            </header>
+                <div class="container">
+                    <nav class="row">
+                        <div class="col-sm-9 logo">
+                            <img src="assets/images/logo.png" alt="Pizzaria">
+                        </div><!--Logo-->
+                        <div class="col-sm-3 menu">
+                            <ul class="list-inline">
+                                <li class="list-inline-item">Home</li>
+                                <li class="list-inline-item">Cardápio</li>
+                                <li class="list-inline-item">Contato</li>
+                            </ul>
+                        </div><!--Menu-->
+                    </nav>
+                </div>
 
-            <main class="cotainer d-flex justify-content-end">
-                <div class="align-items-center">
-                    <ul>
-                        <li>Home</li>
-                        <li>Cardápio</li>
-                        <li>Pizzas Tradicionais</li>
-                        <li>Pizzas Nobres</li>
-                        <li>Pizzas Doces</li>
-                        <li>Promoções</li>
-                        <li>Pedidos Online</li>
-                        <li>Contato</li>
-                    </ul>
-                </div><!--Sidebar-->
-                <div class="content flex-wrap">
-                    <h1>Home</h1>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam repellendus nihil minus libero 
-                        eos aliquid cumque nobis, voluptatibus, adipisci quo ducimus inventore pariatur. Aspernatur 
-                        beatae laboriosam tenetur eius soluta mollitia.
-                    </p>
-                </div><!--content-->
+            </header>
+            <main class="container">
+                <div class="row">
+                    <div class="col-sm-3 p-2" id="sideBar">
+                        <ul class="list-unstyled">
+                            <li class="p-2">Home</li>
+                            <li class="p-2">Cardápio</li>
+                            <li class="p-2">Pizzas Tradicionais</li>
+                            <li class="p-2">Pizzas Nobres</li>
+                            <li class="p-2">Pizzas Doces</li>
+                            <li class="p-2">Promoções</li>
+                            <li class="p-2">Pedidos Online</li>
+                            <li class="p-2">Contato</li>
+                        </ul>
+                    </div><!--Sidebar-->
+                    <div class="col-sm-9 p-4 text-left" id="content">
+                        <h1>Home</h1>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam repellendus nihil minus libero 
+                            eos aliquid cumque nobis, voluptatibus, adipisci quo ducimus inventore pariatur. Aspernatur 
+                            beatae laboriosam tenetur eius soluta mollitia.
+                        </p>
+                    </div><!--content-->
+                </div><!--Row-->
             </main>
+
+            <footer class="page-footer">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-6 p-3" id="links">
+                            <h5>Links</h5>
+                            <ul class="list-unstyled">
+                                <li>Home</li>
+                                <li>Cardapio</li>
+                                <li>Contato</li>
+                            </ul>
+                        </div><!--Links-->
+                        <div class="col-sm-6 p-3" id="pizzas">
+                            <h5>Pizzas</h5>
+                            <ul class="list-unstyled">
+                                <li>Tradicionais</li>
+                                <li>Nobres</li>
+                                <li>Doces</li>
+                            </ul>
+                        </div><!--pizzas-->
+                        <div class="col-sm-12 text-center">
+                            Pizzaria.com.br
+                        </div>
+                    </div><!--row-->
+                </div><!--container-->
+            </footer>
 
     </div><!--Container-->
 

@@ -5,6 +5,24 @@
 
 header {
     background-color: #F37520;
+    color: #FFFFFF;
+}
+
+.menu {
+    margin-top: 10px;
+}
+
+#sideBar{
+    background-color: #EDEDED;
+    min-height: 72vh;
+}
+
+footer {
+    background-color: #454545;
+    color: #FFFFFF;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
 
 /*  MOBILE FIRST
